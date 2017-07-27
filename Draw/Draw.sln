@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Draw", "Draw.csproj", "{A798A30D-1A9F-0EB6-2C61-45B71309EC9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Draw.Editor", "Draw.Editor.csproj", "{6A95AA3B-DEB5-10E7-132E-4D5D85285B13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A798A30D-1A9F-0EB6-2C61-45B71309EC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A798A30D-1A9F-0EB6-2C61-45B71309EC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A798A30D-1A9F-0EB6-2C61-45B71309EC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A798A30D-1A9F-0EB6-2C61-45B71309EC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A95AA3B-DEB5-10E7-132E-4D5D85285B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A95AA3B-DEB5-10E7-132E-4D5D85285B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A95AA3B-DEB5-10E7-132E-4D5D85285B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A95AA3B-DEB5-10E7-132E-4D5D85285B13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
