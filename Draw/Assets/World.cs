@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -46,7 +46,7 @@ public class World : MonoBehaviour {
         {
             byte[] receivedBytes = System.Convert.FromBase64String(message);
             bool isRemoving = receivedBytes[0] == 'r';
-            if (receivedBytes.Length < 37+8)
+            if (receivedBytes.Length < 37)
             {
                 return;
             }
@@ -57,6 +57,11 @@ public class World : MonoBehaviour {
             }
             else
             {
+
+                if (receivedBytes.Length < 37 + 8)
+                {
+                    return;
+                }
                 float[] data = new float[(receivedBytes.Length - 37)/sizeof(float)];
                 Buffer.BlockCopy(receivedBytes, 37, data, 0, data.Length * sizeof(float));
                 marker.AddSegment(data, segmentId, false);
