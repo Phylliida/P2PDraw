@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System;
@@ -213,6 +213,7 @@ public class Marker : MonoBehaviour
         if (segments.ContainsKey(segmentId) && !mySegments.ContainsKey(segmentId))
         {
             segments.Remove(segmentId);
+            modified = true;
         }
     }
 
